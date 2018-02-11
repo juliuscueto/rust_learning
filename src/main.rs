@@ -1,5 +1,7 @@
 fn main() {
-    let x: i32;
-    
-    println!("Hello, world!");
+    print_number(5);
+}
+
+fn print_number(x: i32) {
+    println!("x is: {}", x);
 }
